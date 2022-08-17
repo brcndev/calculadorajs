@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+    background-color: blueviolet;
+    overflow-x: hidden;
+    
+}
+    
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+} 
+
+#selector {
+    height: 30px;
+    width: 50px;
+}
+
+.po {
+    width: 50%;
+}
+
+button {
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(201, 50, 50);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    transform: 0.3s;
+    background-color: rgb(138, 37, 37);
+}
+
+#resultado {
+    border: rgb(138, 37, 37) solid 1px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;   
+}
